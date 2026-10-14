@@ -1,35 +1,66 @@
-## Add a short sound
+## Change the rhythm
 
-Give your instrument a short sound you can play whenever you like.
+Use movement to change how your sound plays.
 
-> [!TASK]
+> [!INFO]
 >
-> From the `Input`{:class='microbitinput'} menu, drag an `on shake`{:class='microbitinput'} block into the code area.
->
-> ```microbit
-> input.onGesture(Gesture.Shake, function () {
-> })
-> ```
+> You can change the **rhythm** of the sounds. Lower numbers make a simple rhythm, and 0 is silent. Higher numbers make a busy rhythm.
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitfunctions'} menu, drag a `play`{:class='microbitfunctions'} block inside the `on shake`{:class='microbitinput'} block.
+> From the `Basic`{:class='microbitbasic'} menu, drag a second `forever`{:class='microbitbasic'} block into the code area.
+
+> [!TASK]
+>
+> From the `Sounds`{:class='microbitfunctions'} menu, drag a `set rhythm to 50`{:class='microbitfunctions'} block inside the new `forever`{:class='microbitbasic'} block.
 >
 > ```microbit
-> input.onGesture(Gesture.Shake, function () {
+> basic.forever(function () {
 >     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
 > })
+> basic.forever(function () {
+>     SoftMelodies.setDensity(50)
+> })
 > ```
 
 > [!TASK]
 >
-> Click the drop-down menu in the `play`{:class='microbitfunctions'} block and choose your short sound.
+> Change `50` to `0`.
+
+**Test:** Listen to the simulator. Your sound is silent.
+
+> [!TASK]
 >
-> ![The drop-down menu in the play block inside on shake.](images/short-sound.png){:width="300px"}
+> Change `0` to `20`.
 
-**Test:** Click **SHAKE** on the simulator. Your short sound plays.
+**Test:** Listen to the simple rhythm.
 
-![The SHAKE button on the MakeCode simulator.](images/simulator-shake.png){:width="300px"}
+> [!TASK]
+>
+> Change `20` to `100`.
+
+**Test:** Listen to the busy rhythm.
+
+Now let your movement choose the number.
+
+> [!TASK]
+>
+> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the number in `set rhythm to`{:class='microbitfunctions'}.
+>
+> Change `pitch` to `roll`.
+>
+> ```microbit
+> basic.forever(function () {
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
+> })
+> basic.forever(function () {
+>     SoftMelodies.setDensity(input.rotation(Rotation.Roll))
+> })
+> ```
+
+> [!TIP]
+>
+> **Roll** is how far the micro:bit tips from side to side.
 
 > [!TASK]
 >
@@ -39,4 +70,9 @@ Give your instrument a short sound you can play whenever you like.
 >
 > Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
 
-**Test:** Put on your instrument and shake it. Your short sound plays.
+**Test:** Put on your instrument. Press **A**, then slowly twist your wrist to tip the micro:bit to the right. The rhythm gets busy. Twist back to make it simple again.
+
+> [!DEBUG]
+>
+> If nothing changes, check which way your micro:bit is facing. Try `pitch` instead of `roll`, or tip it the other way.
+

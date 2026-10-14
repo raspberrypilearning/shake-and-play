@@ -1,65 +1,43 @@
-## Play a sound
+## Play on your micro:bit
 
-Make your instrument play a sound, and turn it on and off with the buttons.
-
-> [!TASK]
->
-> Open the starter project at [rpf.io/shake-and-play](https://rpf.io/shake-and-play){:target="_blank"}.
-
-The starter project has a **sound library** called `Sounds`{:class='microbitfunctions'}. It has six short sounds for your instrument.
-
-![The Sounds menu in MakeCode, showing its blocks.](images/synth-menu.png){:width="450px"}
+Download your code to the micro:bit and play it away from the computer.
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitfunctions'} menu, drag a `play`{:class='microbitfunctions'} block inside the `forever`{:class='microbitbasic'} block.
+> Plug the small end of the USB cable into the micro:bit. Connect the other end to your computer.
 >
-> ```microbit
-> basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
-> })
-> ```
-
-**Test:** Listen to the simulator. The sound plays over and over.
+> ![A USB cable plugged into the micro:bit and a computer.](images/connect-usb.png){:width="450px"}
 
 > [!TASK]
 >
-> Click the drop-down menu in the `play`{:class='microbitfunctions'} block and choose a different sound. Listen to all six.
+> Click **Download** at the bottom of the MakeCode editor.
 >
-> ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
-
-Every instrument needs a way to go quiet, so you can leave a gap when you play with others.
+> ![The Download button in the MakeCode editor.](images/download-button.png){:width="300px"}
 
 > [!TASK]
 >
-> Add an `on button B pressed`{:class='microbitinput'} block from the `Input`{:class='microbitinput'} menu.
+> The first time you download, pair your micro:bit with the computer.
 >
-> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside it. Change the volume to `0`.
+> 1. Click **Pair**.
+> 2. Select your micro:bit and click **Connect**.
+> 3. Click **Download**.
 >
-> ```microbit
-> input.onButtonPressed(Button.B, function () {
->     music.setVolume(0)
-> })
-> ```
+> ![The pairing window in MakeCode, with the micro:bit selected and the Connect button.](images/pair.png){:width="450px"}
 
 > [!TASK]
 >
-> Add an `on button A pressed`{:class='microbitinput'} block from the `Input`{:class='microbitinput'} menu.
+> Plug the battery pack into the micro:bit. Keep it plugged in, even when the USB cable is in.
 >
-> Drag another `set volume`{:class='microbitmusic'} block inside it. Change the volume to `255`.
->
-> ```microbit
-> input.onButtonPressed(Button.A, function () {
->     music.setVolume(255)
-> })
-> ```
+> ![The battery pack plugged into the micro:bit.](images/battery-pack.png){:width="450px"}
 
 > [!TASK]
 >
-> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside the `on start`{:class='microbitbasic'} block. Change the volume to `255`.
+> Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
 >
-> ```microbit
-> music.setVolume(255)
-> ```
+> ![A hand holding the USB plug and pulling it out of the micro:bit.](images/unplug.png){:width="450px"}
 
-**Test:** Click **B** on the simulator to turn the sound off. Click **A** to turn it back on.
+> [!TIP]
+>
+> Use the USB cable for downloading code, then take it out to test. Testing with the cable plugged in can break the USB port.
+
+**Test:** Press **B** to turn the sound off and **A** to turn it back on.

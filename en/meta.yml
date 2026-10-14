@@ -5,18 +5,17 @@ listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Make your wearable
+  - title: Play a sound
     completion:
       - engaged
-  - title: Play a sound
   - title: Play on your micro:bit
-  - title: Choose your sound
-  - title: Add a short sound
-  - title: Shape your sound
+  - title: Make your wearable
+  - title: Shake a sound
+  - title: Change the rhythm
   - title: Play with others
     completion:
       - internal
-  - title: Challenge
+  - title: Challenges
     challenge: true
     completion:
       - external

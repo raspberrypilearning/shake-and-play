@@ -1,57 +1,65 @@
-## Make your wearable
+## Play a sound
 
-Build a holder for your micro:bit that you can wear.
-
-![images of different versions of the template - laser cut, 3D printed, cardboard](images/template.png){:width="450px"}
+Make your instrument play a sound, and turn it on and off with the buttons.
 
 > [!TASK]
 >
-> Draw and cut the holder out of thick cardboard.
->
-> - **Print a template.** [Download the template](resources/shake-and-play-template.pdf){:target="_blank"} and print it. Cut out one template, draw around it on cardboard, then cut out the cardboard.
-> - **Measure and draw.** No printer? Use the measurements on the [template](resources/shake-and-play-template.pdf){:target="_blank"} to draw the shape straight on to the cardboard with a ruler.
->
-> ![images of the template being used on corrugated cardboard](images/template.png){:width="450px"}
+> Open the starter project at [rpf.io/shake-and-play](https://rpf.io/shake-and-play){:target="_blank"}.
 
-> [!TIP]
->
-> If you have the tools, you can 3D print or laser cut the template.
->
-> - **Laser cut.** [Download the laser cutting file](resources/shake-and-play-template.svg){:target="_blank"}. Use it as a template, or as your board.
-> - **3D print.** [Download the 3D printing file](resources/shake-and-play-template.stl){:target="_blank"}. It prints flat and is 3 mm thick. Use it as a template, or as your board.
+The starter project has a **sound library** called `Sounds`{:class='microbitfunctions'}. It has six short sounds for your instrument.
+
+![The Sounds menu in MakeCode, showing its blocks.](images/synth-menu.png){:width="450px"}
 
 > [!TASK]
 >
-> Tape the battery pack to the board.
+> From the `Sounds`{:class='microbitfunctions'} menu, drag a `play`{:class='microbitfunctions'} block inside the `forever`{:class='microbitbasic'} block.
 >
-> ![The battery pack taped to the back of the board.](images/battery.png){:width="450px"}
+> ```microbit
+> basic.forever(function () {
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
+> })
+> ```
+
+**Test:** Listen to the simulator. The sound plays over and over.
 
 > [!TASK]
 >
-> Put the micro:bit on the other side, in the middle of the board.
+> Click the drop-down menu in the `play`{:class='microbitfunctions'} block and choose a different sound. Listen to all six.
 >
-> Stretch two hair elastics over the micro:bit and into the notches at the top and bottom.
->
-> ![Two hair elastics stretched over the micro:bit and into the top and bottom notches.](images/elastic-1.png){:width="450px"}
+> ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
 
-> [!TIP]
->
-> Keep the **A** and **B** buttons and the USB port clear of the elastics so you can still use them.
+Every instrument needs a way to go quiet, so you can leave a gap when you play with others.
 
 > [!TASK]
 >
-> Stretch the third hair elastic across the micro:bit and into the notches on each side.
+> Add an `on button B pressed`{:class='microbitinput'} block from the `Input`{:class='microbitinput'} menu.
 >
-> ![Three hair elastics holding the micro:bit on the cardboard.](images/elastic-2.png){:width="450px"}
+> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside it. Change the volume to `0`.
+>
+> ```microbit
+> input.onButtonPressed(Button.B, function () {
+>     music.setVolume(0)
+> })
+> ```
 
 > [!TASK]
 >
-> Choose how to wear your instrument. Try it on your wrist, the back of your hand or your arm, or hold it in your hand.
+> Add an `on button A pressed`{:class='microbitinput'} block from the `Input`{:class='microbitinput'} menu.
 >
-> ![Three ways to use the instrument. On the wrist, on the back of the hand and held in the hand.](images/ways-to-wear.png){:width="450px"}
-
-**Test:** Twist your wrist, then shake it gently. Does the micro:bit stay in place?
+> Drag another `set volume`{:class='microbitmusic'} block inside it. Change the volume to `255`.
+>
+> ```microbit
+> input.onButtonPressed(Button.A, function () {
+>     music.setVolume(255)
+> })
+> ```
 
 > [!TASK]
 >
-> Decorate your wearable to make it your own.
+> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside the `on start`{:class='microbitbasic'} block. Change the volume to `255`.
+>
+> ```microbit
+> music.setVolume(255)
+> ```
+
+**Test:** Click **B** on the simulator to turn the sound off. Click **A** to turn it back on.

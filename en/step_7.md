@@ -1,78 +1,32 @@
-## Shape your sound
+## Play with others
 
-Use movement to change how your sound plays.
-
-> [!INFO]
->
-> You can change the **rhythm** of the sounds. Lower numbers make a simple rhythm, and 0 is silent. Higher numbers make a busy rhythm.
+Create music in groups.
 
 > [!TASK]
 >
-> From the `Basic`{:class='microbitbasic'} menu, drag a second `forever`{:class='microbitbasic'} block into the code area.
+> Find a partner. Choose who plays first.
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitfunctions'} menu, drag a `set rhythm to 50`{:class='microbitfunctions'} block inside the new `forever`{:class='microbitbasic'} block.
+> ### Play and reply
 >
-> ```microbit
-> basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
-> })
-> basic.forever(function () {
->     SoftMelodies.setDensity(50)
-> })
-> ```
-
-> [!TASK]
+> Play something and see how your partner responds. Then swap.
 >
-> Change `50` to `0`.
-
-**Test:** Listen to the simulator. Your sound is silent.
-
-> [!TASK]
->
-> Change `0` to `20`.
-
-**Test:** Listen to the simple rhythm.
-
-> [!TASK]
->
-> Change `20` to `100`.
-
-**Test:** Listen to the busy rhythm.
-
-Now let your movement choose the number.
-
-> [!TASK]
->
-> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the number in `set rhythm to`{:class='microbitfunctions'}.
->
-> Change `pitch` to `roll`.
->
-> ```microbit
-> basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
-> })
-> basic.forever(function () {
->     SoftMelodies.setDensity(input.rotation(Rotation.Roll))
-> })
-> ```
+> ![Two players facing each other, one playing and one listening.](images/play-and-reply.png){:width="450px"}
 
 > [!TIP]
 >
-> **Roll** is how far the micro:bit tips from side to side.
+> Try copying your partner's sound. Then try replying with something different, like a simple or busy rhythm.
 
 > [!TASK]
 >
-> Plug in the USB cable and click **Download**.
+> Make a group of three or four players.
 
 > [!TASK]
 >
-> Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
-
-**Test:** Put on your instrument. Press **A**, then slowly twist your wrist to tip the micro:bit to the right. The rhythm gets busy. Twist back to make it simple again.
-
-> [!DEBUG]
+> Choose one of these activities to try together.
 >
-> If nothing changes, check which way your micro:bit is facing. Try `pitch` instead of `roll`, or tip it the other way.
-
+> - **Sound conversations.** One person plays a short phrase, and another answers. Try copying, contrasting or changing one thing. Then add another player to the conversation.
+> - **Clicks in a circle.** Go around the circle, each person making their shortest sound. Keep an even pace. If someone misses their turn, the next person continues on the beat.
+> - **Play one at a time.** Begin in silence. Without agreeing an order, listen for a gap before playing. If two people overlap, both stop and wait for another gap.
+> - **Conduct the orchestra.** Choose three or four ways to play, such as simple, busy, happy or sad. Agree on a hand signal for each. Take turns being the conductor, using the signals to guide how the orchestra plays.
