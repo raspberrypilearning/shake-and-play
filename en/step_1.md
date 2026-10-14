@@ -1,45 +1,30 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+Make an instrument you wear on your wrist. Tilt and shake it to make sounds, then play it with your friends.
 
---- print-only ---
+> [!PRINTONLY]
+>
+> ![A micro:bit held on a piece of cardboard with hair elastics, worn on the back of a wrist.](images/shake-and-play.png){:width="450px"}
 
-![ALT TEXT](images/IMAGE.png)
+> [!NOPRINT]
+>
+> **🔊 Sound on!**
+>
+> <video width="640" height="360" controls>
+> <source src="images/shake-and-play.mp4" type="video/mp4">
+> </video>
 
---- /print-only ---
+### You will need
 
---- no-print ---
+**For the wearable:**
+- The cardboard template
+- Thick cardboard
+- Pencil
+- Tape
+- 3 hair elastics
+- Scissors
+- Pens or craft materials to decorate (optional)
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c
+**For the instrument:**
+- Micro:bit V2 and a USB cable
+- Battery pack and 2 AAA batteries
