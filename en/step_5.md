@@ -4,7 +4,7 @@ Pick your favourite sound, then add a short sound you can play whenever you like
 
 > [!TASK]
 >
-> Click the drop-down menu in the `play`{:class='microbitfunctions'} block in the `forever`{:class='microbitbasic'} block and choose your favourite sound.
+> Click the drop-down menu in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block and choose your favourite sound.
 >
 > ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
 
@@ -21,7 +21,7 @@ Pick your favourite sound, then add a short sound you can play whenever you like
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitfunctions'} menu, drag a `play`{:class='microbitfunctions'} block inside the `on shake`{:class='microbitinput'} block.
+> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside the `on shake`{:class='microbitinput'} block.
 >
 > ```microbit
 > input.onGesture(Gesture.Shake, function () {
@@ -31,7 +31,7 @@ Pick your favourite sound, then add a short sound you can play whenever you like
 
 > [!TASK]
 >
-> Click the drop-down menu in the `play`{:class='microbitfunctions'} block and choose your short sound.
+> Click the drop-down menu in the `play`{:class='microbitserial'} block and choose your short sound.
 >
 > ![The drop-down menu in the play block inside on shake.](images/short-sound.png){:width="300px"}
 

@@ -1,18 +1,18 @@
 ## Play a sound
 
-Make your instrument play a sound, and turn it on and off with the buttons.
+Play a sound and turn it on and off with the buttons.
 
 > [!TASK]
 >
 > Open the starter project at [rpf.io/shake-and-play](https://rpf.io/shake-and-play){:target="_blank"}.
 
-The starter project has a **sound library** called `Sounds`{:class='microbitfunctions'}. It has six short sounds for your instrument.
+The starter project has a **library** called `Sounds`{:class='microbitserial'}. It has six short sounds for your instrument.
 
 ![The Sounds menu in MakeCode, showing its blocks.](images/synth-menu.png){:width="450px"}
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitfunctions'} menu, drag a `play`{:class='microbitfunctions'} block inside the `forever`{:class='microbitbasic'} block.
+> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside the `forever`{:class='microbitbasic'} block.
 >
 > ```microbit
 > basic.forever(function () {
@@ -24,7 +24,7 @@ The starter project has a **sound library** called `Sounds`{:class='microbitfunc
 
 > [!TASK]
 >
-> Click the drop-down menu in the `play`{:class='microbitfunctions'} block and choose a different sound. Listen to all six.
+> Click the drop-down menu in the `play`{:class='microbitserial'} block and choose a different sound. Listen to all six.
 >
 > ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
 

@@ -12,7 +12,7 @@ Use movement to change how your sound plays.
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitfunctions'} menu, drag a `set rhythm to 50`{:class='microbitfunctions'} block inside the new `forever`{:class='microbitbasic'} block.
+> From the `Sounds`{:class='microbitserial'} menu, drag a `set rhythm to 50`{:class='microbitserial'} block inside the new `forever`{:class='microbitbasic'} block.
 >
 > ```microbit
 > basic.forever(function () {
@@ -45,7 +45,7 @@ Now let your movement choose the number.
 
 > [!TASK]
 >
-> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the number in `set rhythm to`{:class='microbitfunctions'}.
+> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the number in `set rhythm to`{:class='microbitserial'}.
 >
 > Change `pitch` to `roll`.
 >
