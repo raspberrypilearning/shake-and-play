@@ -16,7 +16,7 @@ Create music in groups.
 
 > [!TIP]
 >
-> Try copying your partner's sound. Then try replying with something different, like a simple or busy rhythm.
+> Try copying your partner's sound. Then try replying with something different, like a slower or faster tempo.
 
 > [!TASK]
 >
@@ -29,4 +29,4 @@ Create music in groups.
 > - **Sound conversations.** One person plays a short phrase, and another answers. Try copying, contrasting or changing one thing. Then add another player to the conversation.
 > - **Clicks in a circle.** Go around the circle, each person making their shortest sound. Keep an even pace. If someone misses their turn, the next person continues on the beat.
 > - **Play one at a time.** Begin in silence. Without agreeing an order, listen for a gap before playing. If two people overlap, both stop and wait for another gap.
-> - **Conduct the orchestra.** Choose three or four ways to play, such as simple, busy, happy or sad. Agree on a hand signal for each. Take turns being the conductor, using the signals to guide how the orchestra plays.
+> - **Conduct the orchestra.** Choose three or four ways to play, such as slow, fast, happy or sad. Agree on a hand signal for each. Take turns being the conductor, using the signals to guide how the orchestra plays.

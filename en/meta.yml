@@ -11,7 +11,7 @@ steps:
   - title: Play on your micro:bit
   - title: Make your wearable
   - title: Shake a sound
-  - title: Change the rhythm
+  - title: Change the tempo
   - title: Play with others
     completion:
       - internal

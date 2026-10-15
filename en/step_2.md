@@ -16,7 +16,7 @@ The starter project has a **library** called `Sounds`{:class='microbitserial'}. 
 >
 > ```microbit
 > basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 120)
 > })
 > ```
 

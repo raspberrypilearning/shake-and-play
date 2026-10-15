@@ -1,60 +1,46 @@
-## Change the rhythm
+## Change the tempo
 
-Use movement to change how your sound plays.
+Use movement to change the tempo of your sound.
 
 > [!INFO]
 >
-> You can change the **rhythm** of the sounds. Lower numbers make a simple rhythm, and 0 is silent. Higher numbers make a busy rhythm.
+> The **tempo** is how fast the sound plays. Lower numbers are slower, and a very low number is silent. Higher numbers are faster.
 
 > [!TASK]
 >
-> From the `Basic`{:class='microbitbasic'} menu, drag a second `forever`{:class='microbitbasic'} block into the code area.
-
-> [!TASK]
->
-> From the `Sounds`{:class='microbitserial'} menu, drag a `set rhythm to 50`{:class='microbitserial'} block inside the new `forever`{:class='microbitbasic'} block.
+> Change the `120` in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block to `0`.
 >
 > ```microbit
 > basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
-> })
-> basic.forever(function () {
->     SoftMelodies.setDensity(50)
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 0)
 > })
 > ```
-
-> [!TASK]
->
-> Change `50` to `0`.
 
 **Test:** Listen to the simulator. Your sound is silent.
 
 > [!TASK]
 >
-> Change `0` to `20`.
+> Change `0` to `60`.
 
-**Test:** Listen to the simple rhythm.
+**Test:** Listen to the slow tempo.
 
 > [!TASK]
 >
-> Change `20` to `100`.
+> Change `60` to `200`.
 
-**Test:** Listen to the busy rhythm.
+**Test:** Listen to the fast tempo.
 
 Now let your movement choose the number.
 
 > [!TASK]
 >
-> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the number in `set rhythm to`{:class='microbitserial'}.
+> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the tempo number in the `play`{:class='microbitserial'} block.
 >
 > Change `pitch` to `roll`.
 >
 > ```microbit
 > basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
-> })
-> basic.forever(function () {
->     SoftMelodies.setDensity(input.rotation(Rotation.Roll))
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.rotation(Rotation.Roll))
 > })
 > ```
 
@@ -70,9 +56,8 @@ Now let your movement choose the number.
 >
 > Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
 
-**Test:** Put on your instrument. Press **A**, then slowly twist your wrist to tip the micro:bit to the right. The rhythm gets busy. Twist back to make it simple again.
+**Test:** Put on your instrument. Press **A**, then slowly twist your wrist to tip the micro:bit to the right. The tempo gets faster. Twist back to make it slower, until it goes silent.
 
 > [!DEBUG]
 >
 > If nothing changes, check which way your micro:bit is facing. Try `pitch` instead of `roll`, or tip it the other way.
-

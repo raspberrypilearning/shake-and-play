@@ -25,7 +25,7 @@ Pick your favourite sound, then add a short sound you can play whenever you like
 >
 > ```microbit
 > input.onGesture(Gesture.Shake, function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral)
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 120)
 > })
 > ```
 
