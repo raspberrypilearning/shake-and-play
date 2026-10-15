@@ -4,31 +4,23 @@ Use movement to change the tempo of your sound.
 
 > [!INFO]
 >
-> The **tempo** is how fast the sound plays. Lower numbers are slower, and a very low number is silent. Higher numbers are faster.
+> The **tempo** is how fast the sound plays. Lower numbers are slower, and higher numbers are faster.
 
 > [!TASK]
 >
-> Change the `120` in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block to `0`.
+> Experiment with the tempo in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block. Try `60`, then try `120`.
 >
 > ```microbit
 > basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 0)
+>     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 60)
 > })
 > ```
 
-**Test:** Listen to the simulator. Your sound is silent.
-
-> [!TASK]
+> [!TIP]
 >
-> Change `0` to `60`.
+> A tempo of `0` is silent.
 
-**Test:** Listen to the slow tempo.
-
-> [!TASK]
->
-> Change `60` to `200`.
-
-**Test:** Listen to the fast tempo.
+**Test:** Listen to the simulator. The tempo changes.
 
 Now let your movement choose the number.
 
@@ -43,6 +35,8 @@ Now let your movement choose the number.
 >     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.rotation(Rotation.Roll))
 > })
 > ```
+>
+> ![An animation of opening the Input...more menu and dragging a rotation block into the tempo number of the play block.](images/rotation-to-tempo.gif){:width="450px"}
 
 > [!TIP]
 >

@@ -1,6 +1,6 @@
 ## What you will make
 
-Make an instrument you can wear. You can tilt and shake it to make sounds, then play it with your friends. 
+Make an instrument you can wear that turns your moves into sound. Dance, tilt and shake to make music, then dance with your friends.
 
 > [!NOPRINT]
 >

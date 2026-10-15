@@ -8,7 +8,7 @@ Play a sound and turn it on and off with the buttons.
 
 The starter project has a **library** called `Sounds`{:class='microbitserial'}. It has six short sounds for your instrument.
 
-![The Sounds menu in MakeCode, showing its blocks.](images/synth-menu.png){:width="450px"}
+![The MakeCode menu with the Sounds category.](images/sounds-menu.png){:width="200px"}
 
 > [!TASK]
 >
@@ -19,6 +19,8 @@ The starter project has a **library** called `Sounds`{:class='microbitserial'}. 
 >     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 120)
 > })
 > ```
+>
+> ![A forever block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-forever.png){:width="450px"}
 
 **Test:** Listen to the simulator. The sound plays over and over.
 

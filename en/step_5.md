@@ -28,12 +28,14 @@ Pick your favourite sound, then add a short sound you can play whenever you like
 >     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 120)
 > })
 > ```
+>
+> ![An on shake block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-shake.png){:width="450px"}
 
 > [!TASK]
 >
 > Click the drop-down menu in the `play`{:class='microbitserial'} block and choose your short sound.
 >
-> ![The drop-down menu in the play block inside on shake.](images/short-sound.png){:width="300px"}
+> ![The drop-down menu in the play block, showing the six sounds.](images/sounds-dropdown.png){:width="450px"}
 
 **Test:** Click **SHAKE** on the simulator. Your short sound plays.
 

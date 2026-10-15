@@ -6,7 +6,7 @@ Download your code to the micro:bit and play it away from the computer.
 >
 > Plug the small end of the USB cable into the micro:bit. Connect the other end to your computer.
 >
-> ![A USB cable plugged into the micro:bit and a computer.](images/connect-usb.png){:width="450px"}
+> ![A USB cable plugged into the micro:bit.](images/connect-usb.jpg){:width="450px"}
 
 > [!TASK]
 >
@@ -22,13 +22,15 @@ Download your code to the micro:bit and play it away from the computer.
 > 2. Select your micro:bit and click **Connect**.
 > 3. Click **Download**.
 >
+> -- REPLACE THIS IMAGE with your own pairing screenshot. This one is from the slides and shows someone else's project (show string "Mac!"). Make it bigger if the text is too small.
+>
 > ![The pairing window in MakeCode, with the micro:bit selected and the Connect button.](images/pair.png){:width="450px"}
 
 > [!TASK]
 >
 > Plug the battery pack into the micro:bit. Keep it plugged in, even when the USB cable is in.
 >
-> ![The battery pack plugged into the micro:bit.](images/battery-pack.png){:width="450px"}
+> ![The battery pack lead plugged into the micro:bit.](images/battery-pack.jpg){:width="450px"}
 
 > [!TASK]
 >

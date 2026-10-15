@@ -20,6 +20,16 @@ basic.forever(function () {
 })
 ```
 
+### Try a different sensor
+
+Put a different sensor in the tempo, like `acceleration (mg) x`{:class='microbitinput'} or `light level`{:class='microbitinput'}. Try `y` and `z` too.
+
+```microbit
+basic.forever(function () {
+    SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.acceleration(Dimension.X))
+})
+```
+
 ### Change your shake
 
 Use the drop-down menu in `on shake`{:class='microbitinput'} to choose a different movement, like `logo up`{:class='microbitinput'} or `screen down`{:class='microbitinput'}.
