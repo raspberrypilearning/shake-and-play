@@ -4,7 +4,9 @@ Use movement to change the tempo of your sound.
 
 > [!TASK]
 >
-> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside the `forever`{:class='microbitbasic'} block.
+> From the `Basic`{:class='microbitbasic'} menu, drag a `forever`{:class='microbitbasic'} block into the code area.
+>
+> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside it.
 >
 > ![A forever block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-forever.png){:width="450px"}
 
@@ -13,8 +15,6 @@ Use movement to change the tempo of your sound.
 > [!TASK]
 >
 > Click the drop-down menu in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block and choose a sound for your loop.
->
-> ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
 
 > [!INFO]
 >
@@ -23,8 +23,6 @@ Use movement to change the tempo of your sound.
 > [!TASK]
 >
 > Experiment with the tempo in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block. Try `60`, then try `120`.
->
-> Add image
 
 > [!TIP]
 >
@@ -38,29 +36,25 @@ Now let your movement choose the number.
 >
 > From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the tempo number in the `play`{:class='microbitserial'} block.
 >
+> ![An animation of opening the Input...more menu and dragging a rotation block into the tempo number of the play block.](images/rotation-to-tempo.gif){:width="450px"}
+>
 > Change `pitch` to `roll`.
 >
-> add image
->
-
-Add tip here -  to 
-
+> ![A forever block containing a play block with rotation roll in its tempo input.](images/roll.png){:width="450px"}
 
 > [!TIP]
 >
-> **Roll**
->
-> ![An animation of opening the Input...more menu and dragging a rotation block into the tempo number of the play block.](images/rotation-to-tempo.gif){:width="450px"}
+> **Roll** is how far the micro:bit tips from side to side.
+
+Your program should have these three parts. Your sounds and the tempo for `on shake`{:class='microbitinput'} can be different.
+
+![An example program with volume set on start, a sound triggered on shake, and a forever loop using rotation roll.](images/full-programme.png){:width="450px"}
 
 > [!TASK]
 >
-> Plug in the USB cable and click **Download**.
+> Click **Download**.
 >
 > ![The Download button in the MakeCode editor.](images/download-button.png){:width="300px"}
-
-> [!TASK]
->
-> Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
 
 **Test:** Tip the micro:bit to the side. Check the tempo changes.
 

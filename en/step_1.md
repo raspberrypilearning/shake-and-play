@@ -12,8 +12,7 @@ Make a wearable that turns your moves into sound. Tilt and shake to make music, 
 
 > [!PRINTONLY]
 >
-> ![A micro:bit held on a piece of cardboard with hair elastics, worn on the back of a wrist.](images/shake-and-play.png){:width="450px"}
-
+> ![A micro:bit held on a piece of cardboard with hair elastics, worn on the back of a wrist.](images/wearing.jpg){:width="450px"}
 
 ### You will need
 
@@ -21,6 +20,7 @@ Make a wearable that turns your moves into sound. Tilt and shake to make music, 
 - The cardboard template
 - Thick cardboard
 - Pencil
+- Ruler if you are drawing the template by hand
 - Tape
 - 3 hair elastics
 - Scissors

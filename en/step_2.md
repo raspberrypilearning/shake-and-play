@@ -4,17 +4,19 @@ Pick a sound and play it with a shake.
 
 > [!TASK]
 >
-> Open the starter project at [rpf.io/shake-and-play](https://rpf.io/shake-and-play){:target="_blank"}.
+> Open the starter project at [rpf.io/shake-starter](https://rpf.io/shake-starter){:target="_blank"}.
 
 > [!TASK]
 >
-> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside the `on start`{:class='microbitbasic'} block. Change the volume to `255`.
+> From the `Basic`{:class='microbitbasic'} menu, drag an `on start`{:class='microbitbasic'} block into the code area.
+>
+> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside it. Change the volume to `255`.
 >
 > ```microbit
 > music.setVolume(255)
 > ```
 
-The starter project has a **custom menu** called `Sounds`{:class='microbitserial'}. It has six sounds for you to use.
+The starter project has a **custom menu** called `Sounds`{:class='microbitserial'}. It has twelve sounds for you to use.
 
 ![The MakeCode menu with the Sounds category.](images/sounds-menu.png){:width="200px"}
 
@@ -35,10 +37,10 @@ The starter project has a **custom menu** called `Sounds`{:class='microbitserial
 
 > [!TASK]
 >
-> Click the drop-down menu in the `play`{:class='microbitserial'} block and choose a sound.
+> Click the drop-down menu in the `play`{:class='microbitserial'} block and choose a sound. Scroll down to see all twelve.
 >
-> ![The drop-down menu in the play block, showing the six sounds.](images/drop-down.png){:width="450px"}
+> ![The drop-down menu in the play block. Scroll down to see all twelve sounds.](images/drop-down.png){:width="450px"}
 
 **Test:** Click **SHAKE** on the simulator and check that your sound plays.
 
-![The SHAKE button on the MakeCode simulator.](images/simulator-shake.png){:width="300px"}
+![The SHAKE button on the MakeCode simulator.](images/shake-sim.png){:width="300px"}

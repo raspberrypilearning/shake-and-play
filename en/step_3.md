@@ -1,7 +1,6 @@
 ## Play on your micro:bit
 
-Download your code to the micro:bit and play it away from the computer.
-
+Download your code to the micro:bit and play.
 
 > [!TASK]
 >
@@ -41,24 +40,10 @@ The first time you download, MakeCode asks you to pair your micro:bit with the c
 >
 > ![The MakeCode window that says Connected to micro:bit, with a Download button.](images/connect4.png){:width="450px"}
 
-> [!TASK]
->
-> Plug the battery pack into the micro:bit. Keep it plugged in, even when the USB cable is in.
-
-> [!TASK]
->
-> Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
->
-> ![A hand holding the USB plug and pulling it out of the micro:bit.](images/unplug.png){:width="450px"}
-
-> [!TIP]
->
-> Use the USB cable for downloading code, then take it out to test. Testing with the cable plugged in can break the USB port.
-
 **Test:** Shake the micro:bit to play your sound.
 
 > [!TASK]
 >
-> Experiment with other movements and download to the board.
+> Experiment with other movements. Click the drop-down menu in the `on shake`{:class='microbitinput'} block to see the choices, then download to the board. Change it back to `shake`{:class='microbitinput'} when you have finished.
 >
-> ![The drop-down menu in the on shake block, showing movements like logo up, screen down and tilt left.](images/more-than-shake.png){:width="450px"}
+> ![The drop-down menu in the on shake block, showing movements like shake, logo up, screen down and tilt left.](images/more-than-shake.png){:width="450px"}
