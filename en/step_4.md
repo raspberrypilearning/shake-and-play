@@ -1,63 +1,69 @@
-## Make your wearable
+## Change the tempo
 
-Build a holder for your micro:bit that you can wear.
-
-![images of different versions of the template - laser cut, 3D printed, cardboard](images/template.png){:width="450px"}
+Use movement to change the tempo of your sound.
 
 > [!TASK]
 >
-> Draw and cut the holder out of thick cardboard.
+> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside the `forever`{:class='microbitbasic'} block.
 >
-> - **Print a template.** [Download the template](resources/shake-and-play-template.pdf){:target="_blank"} and print it. Cut out one template, draw around it on cardboard, then cut out the cardboard.
-> - **Measure and draw.** No printer? Use the measurements on the [template](resources/shake-and-play-template.pdf){:target="_blank"} to draw the shape straight on to the cardboard with a ruler.
+> ![A forever block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-forever.png){:width="450px"}
+
+**Test:** Listen to the simulator. The sound plays over and over.
+
+> [!TASK]
 >
-> ![Scissors cutting out one template from the printed sheet.](images/cut-template.jpg){:width="450px"}
+> Click the drop-down menu in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block and choose a sound for your loop.
 >
-> ![A pencil drawing around the template on thick cardboard.](images/draw-around-template.jpg){:width="450px"}
+> ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
+
+> [!INFO]
 >
-> ![Scissors cutting out the cardboard along the pencil line.](images/cut-cardboard.jpg){:width="450px"}
+> The **tempo** is how fast the sound plays. Lower numbers are slower, and higher numbers are faster.
+
+> [!TASK]
+>
+> Experiment with the tempo in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block. Try `60`, then try `120`.
+>
+> Add image
 
 > [!TIP]
 >
-> If you have the tools, you can 3D print or laser cut the template.
->
-> - **Laser cut.** [Download the laser cutting file](resources/shake-and-play-template.svg){:target="_blank"}. Use it as a template, or as your board.
-> - **3D print.** [Download the 3D printing file](resources/shake-and-play-template.stl){:target="_blank"}. It prints flat and is 3 mm thick. Use it as a template, or as your board.
+> A tempo of `0` is silent.
+
+**Test:** Listen to the simulator. The tempo changes.
+
+Now let your movement choose the number.
 
 > [!TASK]
 >
-> Tape the battery pack to the board.
+> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the tempo number in the `play`{:class='microbitserial'} block.
 >
-> ![The battery pack taped to the back of the board.](images/battery-taped.jpg){:width="450px"}
+> Change `pitch` to `roll`.
+>
+> add image
+>
 
-> [!TASK]
->
-> Put the micro:bit on the other side, in the middle of the board.
->
-> Stretch two hair elastics over the micro:bit and into the notches at the top and bottom.
->
-> ![Two hair elastics stretched over the micro:bit and into the top and bottom notches.](images/two-elastics.jpg){:width="450px"}
+Add tip here -  to 
+
 
 > [!TIP]
 >
-> Keep the **A** and **B** buttons and the USB port clear of the elastics so you can still use them.
+> **Roll**
+>
+> ![An animation of opening the Input...more menu and dragging a rotation block into the tempo number of the play block.](images/rotation-to-tempo.gif){:width="450px"}
 
 > [!TASK]
 >
-> Stretch the third hair elastic across the micro:bit and into the notches on each side.
+> Plug in the USB cable and click **Download**.
 >
-> ![Three hair elastics holding the micro:bit on the cardboard.](images/three-elastics.jpg){:width="450px"}
+> ![The Download button in the MakeCode editor.](images/download-button.png){:width="300px"}
 
 > [!TASK]
 >
-> Choose how to wear your instrument. Try it on your wrist, the back of your hand or your arm, or hold it in your hand.
->
-> ![The instrument worn on the back of the hand.](images/wear-back-of-hand.jpg){:width="450px"}
->
-> ![The instrument worn on the wrist.](images/wear-wrist.jpg){:width="450px"}
+> Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
 
-**Test:** Twist your wrist, then shake it gently. Does the micro:bit stay in place?
+**Test:** Tip the micro:bit to the side. Check the tempo changes.
 
-> [!TASK]
+> [!DEBUG]
 >
-> Decorate your wearable to make it your own.
+> If nothing changes, check which way your micro:bit is facing. Try `pitch` instead of `roll`, or tip it the other way.

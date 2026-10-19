@@ -1,33 +1,57 @@
-## Dance with others
+## Challenges
 
-Make music with your moves.
+### Amplify the movement
 
-> [!TASK]
->
-> Find a partner. Choose who dances first.
+Multiply the tilt so a small movement changes the tempo a lot, and the tempo can go faster than normal. Try different numbers instead of `2`.
 
-> [!TASK]
->
-> ### Move and reply
->
-> Dance a short move and see how your partner replies. Then swap.
->
-> ![Two people facing each other, one dancing and one watching.](images/move-and-reply.png){:width="450px"}
+```microbit
+basic.forever(function () {
+    SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.rotation(Rotation.Roll) * 2)
+})
+```
 
-> [!TIP]
->
-> Try copying your partner's moves. Then try replying with something different, like a slower or faster tempo.
+### Use a different tilt
 
-> [!TASK]
->
-> Make a group of three or four dancers.
+Change `roll` to `pitch`, then tip the micro:bit forwards and backwards to change the tempo.
 
-> [!TASK]
->
-> Choose one of these activities to try together.
->
-> - **Dance conversations.** One person dances a short phrase, and another answers with their own. Try copying, contrasting or changing one thing. Then add another dancer to the conversation.
-> - **Shakes in a circle.** Go around the circle, each person adding a shake and a move of their own. Get faster each time round.
-> - **Dance one at a time.** Begin standing still with your arm level, so your sound is silent. Without agreeing an order, wait for a gap before you dance. If two people dance at once, both stop and wait for another gap.
-> - **Conduct the dancers.** Choose three or four ways to move, such as slow, fast, big or small. Agree on a hand signal for each. Take turns being the conductor, using the signals to guide how the group dances.
-> - **Make a routine.** Agree on four moves in a row, like tilt, shake, wave and hold still. Practise it together, then perform it.
+```microbit
+basic.forever(function () {
+    SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.rotation(Rotation.Pitch))
+})
+```
+
+### Try a different sensor
+
+Put a different sensor in the tempo, like `acceleration (mg) x`{:class='microbitinput'} or `light level`{:class='microbitinput'}. Try `y` and `z` too.
+
+```microbit
+basic.forever(function () {
+    SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.acceleration(Dimension.X))
+})
+```
+
+### Change your shake
+
+Use the drop-down menu in `on shake`{:class='microbitinput'} to choose a different movement, like `logo up`{:class='microbitinput'} or `screen down`{:class='microbitinput'}.
+
+```microbit
+input.onGesture(Gesture.LogoUp, function () {
+    SoftMelodies.play(SoftMelodies.Melody.LiftOff, 120)
+})
+```
+
+### Make your own sound
+
+Use the `play melody`{:class='microbitmusic'} block from the `Music`{:class='microbitmusic'} menu. Click the melody to open the editor and make your own sound, then put the block in your `on shake`{:class='microbitinput'} block.
+
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+})
+```
+
+### Meet the MiMu gloves
+
+Musicians wear MiMu gloves to make music with the movement of their hands. Find out more at [mimugloves.com](https://mimugloves.com){:target="_blank"}.
+
+[[[microbit-share]]]

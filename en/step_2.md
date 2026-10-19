@@ -1,60 +1,10 @@
-## Play a sound
+## Shake a sound
 
-Play a sound and turn it on and off with the buttons.
+Pick a sound and play it with a shake.
 
 > [!TASK]
 >
 > Open the starter project at [rpf.io/shake-and-play](https://rpf.io/shake-and-play){:target="_blank"}.
-
-The starter project has a **library** called `Sounds`{:class='microbitserial'}. It has six short sounds for your instrument.
-
-![The MakeCode menu with the Sounds category.](images/sounds-menu.png){:width="200px"}
-
-> [!TASK]
->
-> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside the `forever`{:class='microbitbasic'} block.
->
-> ```microbit
-> basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 120)
-> })
-> ```
->
-> ![A forever block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-forever.png){:width="450px"}
-
-**Test:** Listen to the simulator. The sound plays over and over.
-
-> [!TASK]
->
-> Click the drop-down menu in the `play`{:class='microbitserial'} block and choose a different sound. Listen to all six.
->
-> ![The drop-down menu in the play block, showing the six sounds.](images/choose-sound.png){:width="300px"}
-
-Every instrument needs a way to go quiet, so you can leave a gap when you play with others.
-
-> [!TASK]
->
-> Add an `on button B pressed`{:class='microbitinput'} block from the `Input`{:class='microbitinput'} menu.
->
-> From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside it. Change the volume to `0`.
->
-> ```microbit
-> input.onButtonPressed(Button.B, function () {
->     music.setVolume(0)
-> })
-> ```
-
-> [!TASK]
->
-> Add an `on button A pressed`{:class='microbitinput'} block from the `Input`{:class='microbitinput'} menu.
->
-> Drag another `set volume`{:class='microbitmusic'} block inside it. Change the volume to `255`.
->
-> ```microbit
-> input.onButtonPressed(Button.A, function () {
->     music.setVolume(255)
-> })
-> ```
 
 > [!TASK]
 >
@@ -64,4 +14,31 @@ Every instrument needs a way to go quiet, so you can leave a gap when you play w
 > music.setVolume(255)
 > ```
 
-**Test:** Click **B** on the simulator to turn the sound off. Click **A** to turn it back on.
+The starter project has a **custom menu** called `Sounds`{:class='microbitserial'}. It has six sounds for you to use.
+
+![The MakeCode menu with the Sounds category.](images/sounds-menu.png){:width="200px"}
+
+> [!TASK]
+>
+> From the `Input`{:class='microbitinput'} menu, drag an `on shake`{:class='microbitinput'} block into the code area.
+>
+> ```microbit
+> input.onGesture(Gesture.Shake, function () {
+> })
+> ```
+
+> [!TASK]
+>
+> From the `Sounds`{:class='microbitserial'} menu, drag a `play`{:class='microbitserial'} block inside the `on shake`{:class='microbitinput'} block.
+>
+> ![An on shake block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-shake.png){:width="450px"}
+
+> [!TASK]
+>
+> Click the drop-down menu in the `play`{:class='microbitserial'} block and choose a sound.
+>
+> ![The drop-down menu in the play block, showing the six sounds.](images/drop-down.png){:width="450px"}
+
+**Test:** Click **SHAKE** on the simulator and check that your sound plays.
+
+![The SHAKE button on the MakeCode simulator.](images/simulator-shake.png){:width="300px"}

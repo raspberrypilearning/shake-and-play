@@ -1,10 +1,10 @@
 ## What you will make
 
-Make an instrument you can wear that turns your moves into sound. Dance, tilt and shake to make music, then dance with your friends.
+Make a wearable that turns your moves into sound. Tilt and shake to make music, then play with your friends.
 
 > [!NOPRINT]
 >
-> See the sounds you can make. **🔊 Sound on!**
+> **🔊 Sound on!**
 >
 > <video width="640" height="360" controls>
 > <source src="images/shake-and-play.mp4" type="video/mp4">
@@ -26,6 +26,6 @@ Make an instrument you can wear that turns your moves into sound. Dance, tilt an
 - Scissors
 - Pens or craft materials to decorate (optional)
 
-**For the instrument:**
+**For the micro:bit:**
 - Micro:bit V2 and a USB cable
 - Battery pack and 2 AAA batteries

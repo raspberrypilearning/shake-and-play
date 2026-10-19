@@ -1,57 +1,31 @@
-## Change the tempo
+## Play with others
 
-Use movement to change the tempo of your sound.
+Work with others, and play sounds together with your moves.
 
-> [!INFO]
->
-> The **tempo** is how fast the sound plays. Lower numbers are slower, and higher numbers are faster.
+Here are some ideas to get you started:
 
-> [!TASK]
+> ### Move and reply
 >
-> Experiment with the tempo in the `play`{:class='microbitserial'} block in the `forever`{:class='microbitbasic'} block. Try `60`, then try `120`.
+> Find a a partner and make a move and see how your partner replies. Then swap.
 >
-> ```microbit
-> basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, 60)
-> })
-> ```
+> Try copying your partner's moves. Then try replying with something different, like a slower or faster tempo.
 
-> [!TIP]
+> ### Dance conversations
 >
-> A tempo of `0` is silent.
+> In a group. One person dances a short phrase, and another answers with their own. Try copying, contrasting or changing one thing. Then add another dancer to the conversation.
 
-**Test:** Listen to the simulator. The tempo changes.
+> ### Shakes in a circle
+>
+> Go around the circle, each person adding a shake and a move of their own. Get faster each time round.
 
-Now let your movement choose the number.
+> ### Dance one at a time 
+>
+> Begin standing still with your arm level, so your sound is silent. Without agreeing an order, wait for a gap before you dance. If two people dance at once, both stop and wait for another gap.
 
-> [!TASK]
+> ### Conduct the dancers 
 >
-> From the `Input...more`{:class='microbitinput'} menu, drag a `rotation (°) pitch`{:class='microbitinput'} block into the tempo number in the `play`{:class='microbitserial'} block.
->
-> Change `pitch` to `roll`.
->
-> ```microbit
-> basic.forever(function () {
->     SoftMelodies.play(SoftMelodies.Melody.SeedAndSpiral, input.rotation(Rotation.Roll))
-> })
-> ```
->
-> ![An animation of opening the Input...more menu and dragging a rotation block into the tempo number of the play block.](images/rotation-to-tempo.gif){:width="450px"}
+> Choose three or four ways to move, such as slow, fast, big or small. Agree on a hand signal for each. Take turns being the conductor, using the signals to guide how the group dances.
 
-> [!TIP]
+> ### Make a routine 
 >
-> **Roll** is how far the micro:bit tips from side to side.
-
-> [!TASK]
->
-> Plug in the USB cable and click **Download**.
-
-> [!TASK]
->
-> Hold the USB plug, not the cable, and gently pull it out of the micro:bit.
-
-**Test:** Put on your instrument. Press **A**, then slowly twist your wrist to tip the micro:bit to the right. The tempo gets faster. Twist back to make it slower, until it goes silent.
-
-> [!DEBUG]
->
-> If nothing changes, check which way your micro:bit is facing. Try `pitch` instead of `roll`, or tip it the other way.
+> Agree on four moves in a row, like tilt, shake, wave and hold still. Practise it together, then perform it.

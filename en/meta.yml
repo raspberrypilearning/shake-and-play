@@ -1,18 +1,17 @@
 title: Shake and play
 hero_image: images/banner.png
-description: Make a wearable instrument that turns your dance moves into sound. Tilt, shake and play with your friends.
+description: Make a wearable that turns your dance moves into sound. Tilt, shake and play with your friends.
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Play a sound
+  - title: Shake a sound
     completion:
       - engaged
   - title: Play on your micro:bit
-  - title: Make your wearable
-  - title: Shake a sound
   - title: Change the tempo
-  - title: Dance with others
+  - title: Make your wearable
+  - title: Play with others
     completion:
       - internal
   - title: Challenges
