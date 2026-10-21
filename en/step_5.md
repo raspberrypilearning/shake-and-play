@@ -65,7 +65,7 @@ Build a holder for your micro:bit that you can wear.
 
 > [!TASK]
 >
-> Plug the battery pack into the micro:bit. You can keep it plugged in, even when the USB cable is in.
+> Plug the battery pack into the micro:bit.
 >
 > ![The battery pack lead plugged into the micro:bit.](images/battery-pluggedin.jpg){:width="450px"}
 

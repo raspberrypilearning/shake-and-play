@@ -2,13 +2,12 @@
 
 Make a wearable that turns your moves into sound. Tilt and shake to make music, then play with your friends.
 
-> [!NOPRINT]
->
-> **🔊 Sound on!**
->
-> <video width="640" height="360" controls>
-> <source src="images/shake-and-play.mp4" type="video/mp4">
-> </video>
+<html>
+<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
+<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/PX5PS9-gas0?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+</iframe>
+</div><br>
+</html>
 
 > [!PRINTONLY]
 >
