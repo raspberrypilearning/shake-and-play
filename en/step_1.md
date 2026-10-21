@@ -17,7 +17,7 @@ Make a wearable that turns your moves into sound. Tilt and shake to make music, 
 ### You will need
 
 **For the wearable:**
-- The cardboard template
+- A printed [template](resources/shake-and-play-template.pdf){:target="_blank"}
 - Thick cardboard
 - Pencil
 - Ruler if you are drawing the template by hand
@@ -27,5 +27,5 @@ Make a wearable that turns your moves into sound. Tilt and shake to make music, 
 - Pens or craft materials to decorate (optional)
 
 **For the micro:bit:**
-- Micro:bit V2 and a USB cable
+- V2 micro:bit and a USB cable
 - Battery pack and 2 AAA batteries

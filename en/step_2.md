@@ -8,6 +8,12 @@ Pick a sound and play it with a shake.
 
 > [!TASK]
 >
+> Click **Edit Code**.
+>
+> ![The starter project page with a red circle around the Edit Code button at the top right.](images/edit-code.png){:width="450px"}
+
+> [!TASK]
+>
 > From the `Basic`{:class='microbitbasic'} menu, drag an `on start`{:class='microbitbasic'} block into the code area.
 >
 > From the `Music`{:class='microbitmusic'} menu, drag a `set volume`{:class='microbitmusic'} block inside it. Change the volume to `255`.

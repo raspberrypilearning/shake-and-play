@@ -42,7 +42,9 @@ Add movement to the change the tempo.
 
 > [!TIP]
 >
-> **Roll** is how far the micro:bit tips from side to side.
+> **Roll** is movement from side to side.
+>
+> Rotate it to `0` and you can stop it playing.
 
 > [!TASK]
 >
