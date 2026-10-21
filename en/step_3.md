@@ -18,7 +18,7 @@ The first time you download, MakeCode asks you to pair your micro:bit with the c
 
 > [!TASK]
 >
-> Click **Next**.
+> A screen will pop up to Connect your micro:bit. Do this then click **Next**.
 >
 > ![The MakeCode window that says Connect your micro:bit to your computer, with a Next button.](images/connect1.png){:width="450px"}
 
@@ -40,10 +40,5 @@ The first time you download, MakeCode asks you to pair your micro:bit with the c
 >
 > ![The MakeCode window that says Connected to micro:bit, with a Download button.](images/connect4.png){:width="450px"}
 
-**Test:** Shake the micro:bit to play your sound.
+**Test:** Shake the micro:bit to check your sound plays.
 
-> [!TASK]
->
-> Experiment with other movements. Click the drop-down menu in the `on shake`{:class='microbitinput'} block to see the choices, then download to the board. Change it back to `shake`{:class='microbitinput'} when you have finished.
->
-> ![The drop-down menu in the on shake block, showing movements like shake, logo up, screen down and tilt left.](images/more-than-shake.png){:width="450px"}

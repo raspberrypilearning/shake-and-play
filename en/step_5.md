@@ -4,9 +4,9 @@ Build a holder for your micro:bit that you can wear.
 
 > [!TASK]
 >
-> Decide how you will make your board:
+> Decide how you will make your holder:
 >
-> - **Print a template.** [Download the template](resources/shake-and-play-template.pdf){:target="_blank"} and print it at **actual size** or **100%**. Cut out one paper template, then draw around it on cardboard.
+> - **Print a template.** [Download the template](resources/shake-and-play-template.pdf){:target="_blank"} and print it at **100%**. 
 > - **Measure and draw.** No printer? Use the measurements on the [template](resources/shake-and-play-template.pdf){:target="_blank"} to draw the shape straight on to the cardboard with a ruler.
 
 > [!TIP]
@@ -19,7 +19,7 @@ Build a holder for your micro:bit that you can wear.
 
 > [!TASK]
 >
-> If you are printing cut out the template from the sheet.
+> If you are printing, cut out the template from the sheet.
 >
 > ![Scissors cutting out one template from the printed sheet.](images/cut-template.jpg){:width="450px"}
 
@@ -32,24 +32,19 @@ Build a holder for your micro:bit that you can wear.
 > [!TASK]
 >
 > Decorate the cardboard to make it your own. Try patterns, colours or a character.
+>
+> ![Four wearable holders, including a plain board, star and wave patterns, and a spotted character with eyes.](images/final-withdeco.gif){:width="450px"}
 
 
 > [!TIP]
 >
-> Draw around the micro:bit, so you know which parts to decorate.
+> Draw around the micro:bit first, so you know which parts to decorate.
 >
 > ![An animation of placing a micro:bit in the middle of the outline and drawing around it with a pencil.](images/draw-round.gif){:width="450px"}
 
 > [!TASK]
 >
 > Cut out your board, including the small notches for the elastics.
-
-> ![Scissors cutting a small notch in the edge of the cardboard.](images/cut-notches.jpg){:width="450px"}
-
-> [!TIP]
->
->
-> Decorate before you cut to get tidy edges.
 >
 > ![Scissors cutting out a cardboard holder decorated with yellow and green spots.](images/cut-deco.jpg){:width="450px"}
 
@@ -70,7 +65,7 @@ Build a holder for your micro:bit that you can wear.
 
 > [!TASK]
 >
-> Plug the battery pack into the micro:bit. Keep it plugged in, even when the USB cable is in.
+> Plug the battery pack into the micro:bit. You can keep it plugged in, even when the USB cable is in.
 >
 > ![The battery pack lead plugged into the micro:bit.](images/battery-pluggedin.jpg){:width="450px"}
 
@@ -86,9 +81,7 @@ Build a holder for your micro:bit that you can wear.
 >
 > ![The wearable worn on the back of the hand and wrist.](images/side-view.jpg){:width="450px"}
 
-**Test:** Twist your wrist, then shake it gently. Does the micro:bit stay in place?
-
-![Four wearable holders, including a plain board, star and wave patterns, and a spotted character with eyes.](images/final-withdeco.gif){:width="450px"}
+**Test:** Twist your wrist, then shake it gently. Check the micro:bit stay in place.
 
 > [!TIP]
 >

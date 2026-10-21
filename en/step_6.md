@@ -46,4 +46,4 @@ Here are some ideas to get you started:
 >
 > ### Make a lightsaber or wand
 >
-> Tape your wearable to a cardboard tube. Choose a humming sound for your loop and a clashing sound for your shake. Move it to change the hum, then shake it to clash with a friend.
+> Tape your wearable to a cardboard tube or rectangle. Choose a humming sound for your loop and a clashing sound for your shake. Move it to change the hum, then shake it to clash with a friend.

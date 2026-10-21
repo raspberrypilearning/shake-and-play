@@ -4,11 +4,17 @@
 >
 > ### Amplify the movement
 >
-> Use the multiply block{ADD!!!} to the tilt to increase the movement. Try different numbers instead of `2`.
+> Use the `multiply`{:class='microbitmath'} block from the `Math`{:class='microbitmath'} menu with the tilt to increase the movement. Try different numbers instead of `2`.
 >
-> ```microbit
-> (Rotation.Roll) * 2
-> ```
+> ![A multiply block with rotation roll on the left and 2 on the right.](images/multiply.png){:width="300px"}
+
+> [!TASK]
+>
+> ### Experiment with other movements 
+>
+> Click the drop-down menu in the `on shake`{:class='microbitinput'} block to see the choices, then download to the board. 
+>
+> ![The drop-down menu in the on shake block, showing movements like shake, logo up, screen down and tilt left.](images/more-than-shake.png){:width="450px"}
 
 > [!TASK]
 >
@@ -20,7 +26,7 @@
 >
 > ### Try a different sensor
 >
-> Add different sensors in the tempo, like `acceleration (mg) x`{:class='microbitinput'} or `light level`{:class='microbitinput'}. With acceleration, try `y` and `z` too.
+> Add different sensors in the tempo, like `acceleration (mg) x`{:class='microbitinput'} or `light level`{:class='microbitinput'}. 
 
 > [!TASK]
 >
