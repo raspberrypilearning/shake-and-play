@@ -1,14 +1,20 @@
-title: Project title in sentence case
+title: Shake and play
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a wearable that turns your moves into sound. Tilt or shake, and play with your friends.
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Shake a sound
     completion:
-      - engaged      
-  - title: Challenge
+      - engaged
+  - title: Play on your micro:bit
+  - title: Change the tempo
+  - title: Make your wearable
+  - title: Play with others
+    completion:
+      - internal
+  - title: Challenges
     challenge: true
     completion:
       - external
