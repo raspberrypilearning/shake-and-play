@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 >
 > ### Shakes in a circle
 >
-> Go around the circle, each person adding a shake and a move of their own. Get faster each time round.
+> Go around the circle, each person adding a shake of their own. Get faster each time round.
 
 > [!TASK]
 >
@@ -40,10 +40,10 @@ Here are some ideas to get you started:
 >
 > ### Make a routine
 >
-> Agree on four moves in a row, like tilt, shake, wave and hold still. Practise it together, then perform it.
+> Agree on four moves in a row, like tilt, wave, spin and hold still. Practise it together, then perform it.
 
 > [!TASK]
 >
 > ### Make a lightsaber or wand
 >
-> Tape your wearable to a cardboard tube or rectangle. Choose a humming sound for your loop and a clashing sound for your shake. Move it to change the hum, then shake it to clash with a friend.
+> Tape your wearable to a cardboard tube or rectangle. Choose a humming sound and move it to change the hum. Or choose a clashing sound and shake it to clash with a friend.

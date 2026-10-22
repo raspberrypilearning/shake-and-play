@@ -1,6 +1,6 @@
 ## What you will make
 
-Make a wearable that turns your moves into sound. Tilt and shake to make music, then play with your friends.
+Make a wearable that turns your moves into sound. Tilt or shake to make music, then play with your friends.
 
 <html>
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;">

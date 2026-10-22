@@ -4,7 +4,7 @@ Use movement to change the tempo of your sound.
 
 > [!TASK]
 >
-> Drag a new `play`{:class='microbitserial'} inside the `forever`{:class='microbitbasic'} block.
+> Move `play`{:class='microbitserial'} inside the `forever`{:class='microbitbasic'} block.
 >
 > ![A forever block with a play block inside it, set to 0: spiral at tempo 120.](images/sounds-forever.png){:width="450px"}
 
