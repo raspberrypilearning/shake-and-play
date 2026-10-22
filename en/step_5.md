@@ -8,11 +8,6 @@ Build a holder for your micro:bit that you can wear.
 >
 > - **Print a template.** [Download the template](resources/shake-and-play-template.pdf){:target="_blank"} and print it at **100%**. 
 > - **Measure and draw.** No printer? Use the measurements on the [template](resources/shake-and-play-template.pdf){:target="_blank"} to draw the shape straight on to the cardboard with a ruler.
-
-> [!TIP]
->
-> If you have the tools, you can 3D print or laser cut the template.
->
 > - **Laser cut.** [Download the laser cutting file](resources/shake-and-play-template.svg){:target="_blank"}. Use it as a template, or as your board.
 > - **3D print.** [Download the 3D printing file](resources/shake-and-play-template.stl){:target="_blank"}. It prints flat and is 3 mm thick. Use it as a template, or as your board.
 
